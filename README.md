@@ -1,0 +1,1 @@
+# javaGitLC  get rich

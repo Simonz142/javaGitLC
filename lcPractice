@@ -1,0 +1,10 @@
+class Solution {
+    public int majorityElement(int[] nums) {
+        //我觉得既然是大于n/2 那肯定是半数以上
+        //那就sort一下，中间的就是答案
+        Arrays.sort(nums);
+        int mid = (nums.length)/2;
+        return nums[mid];
+
+    }
+}
